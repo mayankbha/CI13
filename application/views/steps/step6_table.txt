@@ -1,0 +1,306 @@
+<h3 class="block padding-bottom-10px title_bar"><?php echo $this->lang->line('BasicInformation'); ?></h3>
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-5">
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('BookingNumber'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				AMU840J000677CNJ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('CenturyCode'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				CNJ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('CompanyCode'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				AMAZON EUROPE
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('ShipVendorCode'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+			
+				<select name="country" class="form-control required">
+					<option value="">Select Ship/Vendor Code</option>
+					<option value="0" selected>GFPRW-G& F PRODUCTS</option>
+				</select>
+				
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('FreightType'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+			
+				<select name="country" class="form-control required">
+					<option value="">Select Freight Type</option>
+					<option value="TL" selected>TL</option>
+					<option value="TL">TL</option>
+					<option value="LTL">LTL</option>
+					<option value="Air Freight">Air Freight</option>
+					<option value="Ocean Freight">Ocean Freight</option>
+				</select>
+				
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('ContainersRequired'); ?><span class="required">*</span></label>
+			
+			<div class="col-md-2">
+				<input class="form-control" style="width: 93%;" name="container">
+			</div>
+			<div class="col-md-4">
+				<select name="country" class="form-control">
+					<option value="">40 ft. Standard</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"></label>
+			<div class="col-md-2">
+				<input class="form-control" style="width: 93%;" name="container">
+			</div>
+			<div class="col-md-4">
+				<select name="country" class="form-control">
+					<option value="">40 ft. Standard</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"></label>
+			<div class="col-md-2">
+				<input class="form-control" style="width: 93%;" name="container">
+			</div>
+			<div class="col-md-4">
+				<select name="country" class="form-control">
+					<option value="">40 ft. Standard</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('Status'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				Draft
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('BookingCreated'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				02/22/2017 12:46:56 PM
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('BookingConfirmDate'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<input type="text" placeholder="Booking Confirm Date" class="form-control datepicker" name="rpassword" value="20/05/2017"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('VendorReferenceNumber'); ?></label>
+			<div class="col-md-6">
+				<input type="text" placeholder="Vendor Reference Number" class="form-control" name="vendorrefernce" value="65214365252216"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('ContantName'); ?></label>
+			<div class="col-md-6">
+				<input type="text" placeholder="Contant Name" class="form-control" name="contantname" value="Johon" /> 
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('ContantPhone'); ?></label>
+			<div class="col-md-6">
+				<input type="text" placeholder="Contant Phone" data-mask="(999) 999-9999" class="form-control" name="phone" value="(405) 072-6523"/> 
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('ContantFax'); ?></label>
+			<div class="col-md-6">
+				<input type="text" placeholder="Contant Fax " class="form-control" name="fax" value="987466522"/> 
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('Contant Email'); ?></label>
+			<div class="col-md-6">
+				<input type="text" class="form-control required email" name="email" 
+				placeholder="Contant Email" value="super.developer01@gmail.com"/> 
+			</div>
+		</div>
+	
+	</div>
+	<div class="col-md-1">
+	</div>
+</div>
+
+<h3 class="block padding-bottom-10px title_bar"><?php echo $this->lang->line('Cargo'); ?></h3>
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-5">
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('CountryofOrigin'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="">Select Country</option>
+					<option value="us" selected>United State</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('SolidWoodPacking'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="no" selected>No</option>
+					<option value="yes">Yes</option>
+				</select>	
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('AddEditManufacturer'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="no" selected>No</option>
+					<option value="yes">Yes</option>
+				</select>	
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('Name'); ?></label>
+			<div class="col-md-6">
+				John Doe
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('Address1'); ?></label>
+			<div class="col-md-6">
+				123 New Road
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('Address2'); ?></label>
+			<div class="col-md-6">
+				123 New Road
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('City'); ?></label>
+			<div class="col-md-6">
+				AZ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('State'); ?></label>
+			<div class="col-md-6">
+				AZ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('CountryCode'); ?></label>
+			<div class="col-md-6">
+				United State
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('PostalCode'); ?></label>
+			<div class="col-md-6">
+				000000
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('SippingMark'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="">Sipping Mark</option>
+					<option value="no" selected>No</option>
+					<option value="yes">Yes</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-5"><?php echo $this->lang->line('NumberofPallets'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<input type="text" class="form-control required" name="Number of Pallets" placeholder="Number of Pallets" value="98563211" style="width: 160px;"/> 
+			</div>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('LicenseRequired'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="">Export License</option>
+					<option value="no">No</option>
+					<option value="yes" selected>Yes</option>
+				</select>	
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('ContainersDangerous'); ?><span class="required">*</span></label>
+			<div class="col-md-6">		
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="">Select One</option>
+					<option value="us" selected>United State</option>
+				</select>	
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('Name'); ?></label>
+			<div class="col-md-6">
+				Joho Doe
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('Address1'); ?></label>
+			<div class="col-md-6">
+				12 New Road
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('Address2'); ?>Address 2</label>
+			<div class="col-md-6">
+				12 New Road
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('City'); ?></label>
+			<div class="col-md-6">
+				AZ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('ProvinceState'); ?></label>
+			<div class="col-md-6">
+				AZ
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('CountryCode'); ?></label>
+			<div class="col-md-6">
+				United State
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('PostalCode'); ?></label>
+			<div class="col-md-6">
+				10005
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-6"><?php echo $this->lang->line('GSPApplicable'); ?><span class="required">*</span></label>
+			<div class="col-md-6">
+				<select name="country" class="form-control required" style="width: 160px;">
+					<option value="">Select One</option>
+					<option value="DSP" selected>GSP</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-1">
+	</div>
+</div>

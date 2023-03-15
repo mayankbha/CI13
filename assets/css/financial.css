@@ -1,0 +1,138 @@
+.ruler{	
+ 	border-color: black;
+    color: black;
+    margin-left: -63px;
+    margin-right: 173px;
+} 
+
+.subtotal{
+	 padding-left: 48px;
+    padding-right: 15px;
+}	
+
+.rulerfull{
+	border-width: 3px 0 0;
+	margin-left: 101px;
+    margin-right: 168px;
+}
+
+.productCharges{
+	line-height: 20px;
+}
+
+.createTicket{
+	margin-top: 58px;
+}
+
+.PriorityCss{
+	width: 60%;
+}
+
+.threadsDiv{
+	background-color: #f9f9f9;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.textDivThreads{
+	color:black;
+}
+
+.textDivThreadsadmin{
+	color: #f9f9f9;
+}
+
+.threadsDivadmin{
+	background-color: #4D7496;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rulerthreads{
+
+	border-color: black;
+    color: black;
+    margin-left: -21px;
+    margin-right: 184px;
+    margin-top: -4px;
+}
+
+.createTicketthreads{
+    margin-top: 36px;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4D7496;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4D7496;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.markasresolved {
+ 	margin-right: 24px;
+   	margin-top: -41px;
+}
+
+.textID{
+	line-height: 4px;
+}
+
+.userIcon {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding: 23px 21px 12px;
+}
